@@ -38,8 +38,12 @@ Converting these figures to numerical data in matrix format is first step of the
 Convolutional Neural Network(CNN) is the obvious choice for tasks related to computer vision.  Because of explicit criteria of normal/defect classification, making distinction between two classes is not difficult. Therefore,  for the purpose of this project, relatively simple architecture, consisting number of convolutional layers, pooling layers and dropout layers in addition to dense layers are developed. Detailed architecture of the model is shown in figure 3.   
 
 <br><br>
-<img src="Figures/ModelSummary.png"  width="50%"><br>
+<p align="center">
+<img src="Figures/ModelSummary.png" >
+</p>  
+<p align="center">
 Figure 3: CNN Model Summary. 
+</p> 
 <br><br>
 
 From original dataset, final dataset is chosen in a way to have 30 normal and 30 defected samples. Final dataset then split to 2/3 training-set and 1/3 test-set. 20% of training-set also hold out for validation purposes.  
