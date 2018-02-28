@@ -43,7 +43,7 @@ Converting these figures to numerical data in matrix format is first step of the
 <br><br>
 ## Model Development (Convolutional Neural Network)
 <br>
-Convolutional Neural Network(CNN) is the obvious choice for tasks related to computer vision.  Because of explicit criteria of normal/defect classification, making distinction between two classes is not difficult. Therefore,  for the purpose of this project, relatively simple architecture, consisting number of convolutional layers, pooling layers and dropout layers in addition to dense layers are developed. Detailed architecture of the model is shown in figure 3.   
+Convolutional Neural Network(CNN) is the obvious choice for tasks related to computer vision.  In this particular case, due to explicit criteria of normal/defect classification, differentiating between two classes is not difficult. Therefore,  for the purpose of this project, relatively simple architecture, consisting number of convolutional layers, pooling layers and dropout layers in addition to dense layers are developed in keras environment baked by TensorFlow platform. Detailed architecture of the model is shown in figure 3.   
 
 <br><br>
 <p align="center">
