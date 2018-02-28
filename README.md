@@ -3,7 +3,7 @@
 <div style="text-align: justify">
 For years the industry has been striving to cram more and more circuitry onto tiny silicon chips, allowing for faster and smaller electronic devices. But less attention was paid to the fact that electrical signals still have to be carried into and out of the chip throughout the packaging. Today, it is the packaging that is emerging as a bottleneck, restricting efforts to increase the speed and shrink the size of electronic devices.
 
-<br>
+<br><br>
 <p align="center">
 <img src="Figures/chip_leg.jpg"  width="50%"><br>
 </p>  
@@ -19,7 +19,7 @@ One problem in semiconductor manufacturing is that as chips become more complex,
 In many modern chips, the space between the leads is only 0.5 mm apart. The coverage of the material dispensed during the manufacturing process is critical to the reliability and performance of the package. The presence of voids and variations in thickness are undesirable. Excessive or insufficient coverage of the die attach material makes the device susceptible to reliability failures. Lack of thickness control can contribute to reliability failures and impact the subsequent wire bond process. 
 
 Wire bonds are the most common means of providing an electrical connection from the device to the substrate/ Leadframe. The wire bond process must achieve high throughput and production yields to be acceptable on a cost basis. High-speed wire bond equipment consists of a handling system to feed the substrate/leadframe into the work area. Wires are bonded one wire at a time and typical bond line thickness is between 1 to 2 mm.  Computer vision and Image recognition systems are common practice to ensure the die is orientated to match the bonding diagram for a particular device. 
-<br>
+<br><br>
 <p align="center">
 <img src="Figures/NormaDefect.png" ><br>
 </p> 
@@ -45,7 +45,7 @@ Converting these figures to numerical data in matrix format is first step of the
 <br>
 Convolutional Neural Network(CNN) is the obvious choice for tasks related to computer vision.  Because of explicit criteria of normal/defect classification, making distinction between two classes is not difficult. Therefore,  for the purpose of this project, relatively simple architecture, consisting number of convolutional layers, pooling layers and dropout layers in addition to dense layers are developed. Detailed architecture of the model is shown in figure 3.   
 
-<br>
+<br><br>
 <p align="center">
 <img src="Figures/ModelSummary.png" >
 </p>  
@@ -56,7 +56,7 @@ Figure 3: CNN Model Summary.
 
 From original dataset, final dataset is chosen in a way to have 30 normal and 30 defected samples. Final dataset then split to 2/3 training-set and 1/3 test-set. 20% of training-set also hold out for validation purposes.  
 
-<br>
+<br><br>
 <p align="center">
 <img src="Figures/Epoch.png"  width="50%">
 </p> 
@@ -85,6 +85,6 @@ Test accuracy: 1.0
 <br><br>
 Developed functions for this section can be found in project repository under “CNN_Model” and “ PreProcessing” titles.
 
- 
+ <br><br>
 http://www.nytimes.com/1985/11/07/business/technology-a-bottleneck-chip-s-package.html
 http://www.ti.com/lit/an/snoa286/snoa286.pdf
